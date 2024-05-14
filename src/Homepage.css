@@ -1,0 +1,89 @@
+.main-content {
+    /* Your existing styles for the main content */
+    margin-top: 130px; /* Add margin to create space above the footer */
+  }
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 0px 40px;
+}
+
+header div {
+    display: flex;
+    gap: 10px;
+}
+header button{
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+.demo img {
+    border-radius: 5%;
+}
+
+div.demo {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    scrollbar-width: none;
+}
+
+#trending {
+    padding-top: 10px;
+}
+
+#trending p {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.section div {
+    display: flex;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+i,
+a {
+    cursor: pointer;
+}
+
+/* Add this to your homepage.css or include it in your existing styles */
+.image-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    opacity: 0; /* Initially hidden */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.overlay p {
+    margin: 0;
+    text-wrap: balance;
+}
+
+.image-container:hover .overlay {
+    opacity: 1; /* Show on hover */
+}

@@ -1,0 +1,43 @@
+.containerx {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .contentx {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-text-containerx {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-containerx {
+    flex: 1;
+  }
+  
+  .image-left {
+    max-width: 100%;
+  }
+  
+  .image-right {
+    max-width: 100%;
+  }
+  
+  .text-container {
+    flex: 1;
+    padding: 0 20px; /* Adjust spacing as needed */
+  }
+  
+  .explore-button {
+    display: block;
+    margin: 20px auto;
+  }
+  

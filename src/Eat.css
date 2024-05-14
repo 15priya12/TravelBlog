@@ -1,0 +1,52 @@
+
+
+  .dish-tiles {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .dish-tile {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .dish-tile img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .info-tiles {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .info-tile {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featured-dish {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .featured-dish img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .dish-info {
+    text-align: left;
+  }
+  
+  /* Add Font Awesome icons */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');

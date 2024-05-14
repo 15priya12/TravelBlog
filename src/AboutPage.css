@@ -1,0 +1,13 @@
+.heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.profiles
+{
+    padding-left: 300px;
+    gap:100px;
+    display: flex;
+}
