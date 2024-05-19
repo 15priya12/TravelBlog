@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Section from './Section';
 import './Homepage.css';
-
+import CommentSection from './CommentSection';
 function Homepage() {
     
     return (
@@ -13,6 +13,7 @@ function Homepage() {
                 <Section city="Paris" images={[{ src: "pictures/paris/image1.jpg", alt: ""  , overlayText: "Paris Picture"},{ src: "pictures/paris/image2.jpg", alt: ""  , overlayText: "Paris  Picture"},{ src: "pictures/paris/image3.jpg", alt: "" , overlayText: "Paris Picture"} ,{ src: "pictures/paris/image4.jpg", alt: ""  , overlayText: "Paris Picture"},{ src: "pictures/paris/image5.jpg", alt: ""  , overlayText: "Paris Picture"}]} />
                 {/* Add more sections as needed */}
             </div>
+            <CommentSection />
         </div>
     );
 }
